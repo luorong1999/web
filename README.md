@@ -35,26 +35,26 @@
 
 * 修改main.c中的数据库初始化信息
 
-    C++
     // root root修改为服务器数据库的登录名和密码
+    ```
     connPool->init("localhost", "root", "123456", "yourdb", 3306, 8);
     ```
-
 * 修改http_conn.cpp中的root路径
 
-    C++
     // 修改为root文件夹所在路径
+    ```
     const char* doc_root="/home/luo/WEBSERVER/root";
     ```
 
 * 生成server
-
+    ```
     make server
-
+    ```
 * 启动server
-
+    ```
     ./server 8888
-
+    ```
 * 浏览器端
-
+    ```
     127.0.0.1:8888
+    ```
