@@ -1,0 +1,42 @@
+2022-03-05 11:31:31.796352 [info]: deal with the client(127.0.0.1)
+2022-03-05 11:31:31.796539 [info]: adjust timer once
+2022-03-05 11:31:31.796607 [info]: GET / HTTP/1.1
+2022-03-05 11:31:31.796667 [info]: Host: 127.0.0.1:8888
+2022-03-05 11:31:31.796678 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:97.0) Gecko/20100101 Firefox/97.0
+2022-03-05 11:31:31.796682 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:97.0) Gecko/20100101 Firefox/97.0
+2022-03-05 11:31:31.796686 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2022-03-05 11:31:31.796690 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+2022-03-05 11:31:31.796694 [info]: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2022-03-05 11:31:31.796697 [info]: oop!unknow header: Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+2022-03-05 11:31:31.796701 [info]: Accept-Encoding: gzip, deflate
+2022-03-05 11:31:31.796705 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2022-03-05 11:31:31.796708 [info]: Connection: keep-alive
+2022-03-05 11:31:31.796712 [info]: Upgrade-Insecure-Requests: 1
+2022-03-05 11:31:31.796716 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2022-03-05 11:31:31.796719 [info]: Sec-Fetch-Dest: document
+2022-03-05 11:31:31.796723 [info]: oop!unknow header: Sec-Fetch-Dest: document
+2022-03-05 11:31:31.796727 [info]: Sec-Fetch-Mode: navigate
+2022-03-05 11:31:31.796730 [info]: oop!unknow header: Sec-Fetch-Mode: navigate
+2022-03-05 11:31:31.796734 [info]: Sec-Fetch-Site: none
+2022-03-05 11:31:31.796737 [info]: oop!unknow header: Sec-Fetch-Site: none
+2022-03-05 11:31:31.796741 [info]: Sec-Fetch-User: ?1
+2022-03-05 11:31:31.796744 [info]: oop!unknow header: Sec-Fetch-User: ?1
+2022-03-05 11:31:31.796748 [info]: 
+2022-03-05 11:31:31.796826 [info]: request:HTTP/1.1 200 OK
+
+2022-03-05 11:31:31.796840 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+
+2022-03-05 11:31:31.796844 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+2022-03-05 11:31:31.796848 [info]: request:HTTP/1.1 200 OK
+Content-Length:586
+Connection:keep-alive
+
+
+2022-03-05 11:31:31.797062 [info]: send data to the client(127.0.0.1)
+2022-03-05 11:31:31.797081 [info]: adjust timer once
+2022-03-05 11:31:33.614868 [info]: timer tick
+2022-03-05 11:31:34.885047 [info]: close fd 16
